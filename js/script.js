@@ -24,8 +24,6 @@ $(document).ready(function () {
         $('.btn > .down').toggleClass('off');
         $('.btn > .up').toggleClass('off')
 
-
-
       }
     );
 
