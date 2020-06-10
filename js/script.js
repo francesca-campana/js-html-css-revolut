@@ -1,7 +1,15 @@
 $(document).ready(function () {
   $('.with-dropdown').mouseenter(
     function (){
+
       $(this).children('.dropdown').addClass('active');
+
+
+  });
+  $('.with-dropdown').mouseleave(
+    function (){
+      $('.dropdown').removeClass('active');
+      $(this).children('with-dropdown').addClass('active');
 
   });
 
