@@ -53,8 +53,11 @@ nav.right .menu .btn-mag a {
   display: inline;
   padding-left: 50px;
   position:relative;
+  padding-bottom: 10px;
 }
-
+/* .menu li:hover a {
+  color: black;
+} */
 .menu li a {
   text-decoration: none;
   font-size: 14px;
@@ -63,10 +66,19 @@ nav.right .menu .btn-mag a {
 
 }
 /* inizio dropdown */
+/* .dropdown:hover li{
+  background-color:color:#a4aab0;
+} */
+.dropdown li:hover a {
+  background-color: #dbdde0;
+  margin-bottom: 1px;
+  color: white;
+}
 .dropdown li a {
   display: block;
-  text-align: left;
+  text-align: center;
   padding-bottom: 18px;
+  padding-top: 18px;
 }
 .dropdown li {
   line-height: 1;
@@ -75,7 +87,7 @@ nav.right .menu .btn-mag a {
 span {
   display: inherit;
   text-align: right;
-  width: 97px;
+  width: 166px;
   font-size: 12px;
   color: #eb058c;
 }
@@ -83,15 +95,28 @@ span {
   position: absolute;
   top: 26px;;
   left: 47px;
-  width: 200px;
+  width: 223px;
   background-color: white;
-  padding: 20px;
   box-shadow: -4px 9px 51px -31px rgba(0,0,0,0.5);
   display: none;
 }
 .active {
   display:block;
 }
-
+.off {
+  display: none;
+}
 /* fine dropdown */
+/* Button languages */
+
+.btn > .down {
+  font-size: 10px;
+  color:#a4aab0;
+}
+
+.btn > .up {
+  font-size: 10px;
+  color:#a4aab0;
+}
+/* Fine button languages */
 /* FINE HEADER */
