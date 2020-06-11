@@ -19,13 +19,21 @@ $(document).ready(function () {
       }
     );
 
-    $('.btn').click(
+    $('.btn').mouseenter(
       function (){
         $('.btn > .down').toggleClass('off');
         $('.btn > .up').toggleClass('off')
 
       }
     );
+    $('.btn').mouseleave(
+      function (){
+        $('.btn > .down').toggleClass('off');
+        $('.btn > .up').toggleClass('off')
+
+      }
+    );
+
 
 
 
